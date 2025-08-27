@@ -87,7 +87,6 @@ namespace Wings
                 isFlying = true;
                 loco.groundAngle = -359f;
                 loco.physicBody.useGravity = false;
-                loco.physicBody.mass = 100000f;
                 loco.physicBody.drag = 0.9f;
                 loco.velocity = Vector3.zero;
                 Player.fallDamage = false;
